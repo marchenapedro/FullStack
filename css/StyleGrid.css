@@ -1,0 +1,100 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 14px;
+    color: gray;
+}
+
+.head {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Encabezado {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-encabezado {
+    margin-left: 40px;
+}
+
+.imagen {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.info-seguidores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publicaciones {
+    display: flex;
+    justify-content: center;
+}
+
+.division {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 940px;
+    height: 0.5px;
+    background-color: gray;
+}
+
+.public {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-imagenes {
+    margin-top: 50px;
+    display: grid;
+    width: 900px;
+    grid-gap: 20px;
+    background-color: white;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.img-content img {
+    width: 300px;
+    height: 300px;
+}
+
+.perfil {
+    padding-top: 30px;
+    width: 1200px;
+    text-align: justify;
+    margin: 0 auto 0 auto;
+}
+
+.experiencia {
+    padding-top: 30px;
+    width: 1200px;
+    text-align: justify;
+    margin: 0 auto 0 auto;
+}
+
+.jobs {}
